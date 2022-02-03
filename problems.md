@@ -9,5 +9,15 @@ for CMD ["npm", "install"]
 
 ```
 *dont forgot change git user and email first 
-set https://username:password@github.com/username/repo in /.git/config or clone with this
+
+in config file:
+
+[user]
+	name=name
+	email=email
+[remote "origin"] 
+	url=https://username:password@github.com/username/repo 
+
+
+or clone with this
 ```
