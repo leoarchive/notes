@@ -19,5 +19,5 @@ in config file:
 	url=https://username:password@github.com/username/repo 
 
 
-or clone with this
+or clone with this url
 ```
