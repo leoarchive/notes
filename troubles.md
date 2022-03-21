@@ -1,3 +1,19 @@
+## mount new hard drive
+
+```
+# create mount dir
+sudo mkdir mnt/drive
+
+# new file system
+sudo mkfs.ext4 /dev/sdXY
+
+# mount drive
+sudo mount /dev/sdXY mnt/drive
+
+# change ownership to specified user
+sudo chown user mnt/drive/
+```
+
 ## debian steam error: you are missing the following 32-bit libraries, and steam may not run: libgl.so.1
 
 this is the only solution that worked
