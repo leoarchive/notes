@@ -1,3 +1,11 @@
+## debian steam error: you are missing the following 32-bit libraries, and steam may not run: libgl.so.1
+
+this is the only solution that worked
+
+```
+sudo apt install nvidia-driver-libs:i386
+```
+
 ## docker not run npm install
 
 ```
