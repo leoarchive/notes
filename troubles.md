@@ -1,3 +1,7 @@
+## disable screensaver dconf-editor
+```
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+```
 ## mount new hard drive
 
 ```
@@ -29,13 +33,9 @@ change RUN npm install
 for CMD ["npm", "install"]
 ``` 
 
-## git credencial problems 
+## set user and email repository git/config
 
 ```
-*dont forgot change git user and email first 
-
-in config file:
-
 [user]
 	name=name
 	email=email
