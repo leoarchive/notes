@@ -1,3 +1,18 @@
+## auto focus reactstrap input
+```
+const emailInputRef = React.useRef<HTMLInputElement>(null);
+
+React.useEffect(()=>{
+    setTimeout(() => {
+        emailInputRef.current?.focus();
+    }, 1);
+}, []);
+
+
+<Input innerRef={emailInputRef} ...props />
+
+```
+
 ## disable screensaver dconf-editor
 ```
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
