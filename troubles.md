@@ -1,3 +1,13 @@
+## NPM package cannot be used as a JSX Component - Type errors
+```
+use yarn in dockerfile and in package.json:
+
+"resolutions": {
+  "@types/react": "17.0.2",
+  "@types/react-dom": "17.0.2"
+},
+
+```
 ## auto focus reactstrap input
 ```
 const emailInputRef = React.useRef<HTMLInputElement>(null);
