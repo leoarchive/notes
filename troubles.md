@@ -57,6 +57,7 @@ sudo apt install nvidia-driver-libs:i386
 ```
 
 ## docker not run npm install
+if your Dockerfile have more than one CMD, docker only run the last
 
 ```
 change RUN npm install
