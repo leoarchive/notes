@@ -1,9 +1,9 @@
-## Lightdm cannot open
+## arch lightdm cannot open
 ``` 
 rm /etc/X11/xorg.conf.d/10-evdev.conf
 ```
 
-## NPM package cannot be used as a JSX Component - Type errors
+## NPM package cannot be used as a JSX Component - Type error
 ```
 use yarn in dockerfile and in package.json:
 
