@@ -1,3 +1,9 @@
+## clean restart docker
+```
+docker rm -f $(docker ps -a -q)
+docker volume rm $(docker volume ls -q)
+```
+
 ## arch lightdm cannot open
 ``` 
 rm /etc/X11/xorg.conf.d/10-evdev.conf
