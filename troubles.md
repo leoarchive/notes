@@ -1,3 +1,15 @@
+## set dwm status
+```
+xsetroot -name "$(date)"
+```
+autostrat patch
+https://dwm.suckless.org/patches/autostart/
+
+
+```
+patch -i patch_name
+```
+
 ## clean restart docker
 ```
 docker rm -f $(docker ps -a -q)
