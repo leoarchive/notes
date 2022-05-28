@@ -1,8 +1,26 @@
+
+## create a new xsession desktop
+
+```
+sudo vim /usr/share/xsessions/dwm.desktop
+```
+
+```
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dwm
+Comment=the dynamic window manager
+Exec=dwm
+Icon=dwm
+Type=XSession
+```
+
+
 ## set dwm status
 ```
 xsetroot -name "$(date)"
 ```
-autostrat patch
+autostart patch
 https://dwm.suckless.org/patches/autostart/
 
 
