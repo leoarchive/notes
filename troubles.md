@@ -28,6 +28,11 @@ https://dwm.suckless.org/patches/autostart/
 patch -i patch_name
 ```
 
+## teclado americano com acentuacao
+```
+setxkbmap -model abnt -layout us -variant intl
+```
+
 ## clean restart docker
 ```
 docker rm -f $(docker ps -a -q)
