@@ -1,3 +1,8 @@
+## Arch linux unknown errors and "Failed to connect to seed broker with kafka" 
+
+```
+happened because I was using a ufscar server for packages 
+```
 
 ## create a new xsession desktop
 
