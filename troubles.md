@@ -1,4 +1,9 @@
-## Arch linux unknown errors and "Failed to connect to seed broker with kafka" 
+## pavucontrol-qt dont show input device (headset with microphone)
+```
+configuration -> built-in audio -> analog stereo duplex
+```
+
+## Arch linux error for update pacman
 
 ```
 happened because I was using a ufscar server for packages 
