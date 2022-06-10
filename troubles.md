@@ -1,3 +1,10 @@
+## Failed to connect to seed broker with kafkajs
+```
+.env problem. Even though the docker-compose volume is pointing to dev.env, the volume is starting with .env;
+
+just rename .env file.
+```
+
 ## pavucontrol-qt dont show input device (headset with microphone)
 ```
 configuration -> built-in audio -> analog stereo duplex
