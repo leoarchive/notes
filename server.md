@@ -1,3 +1,8 @@
+# ORACLE HTTPS:
+```
+TCP 443 Allow HTTPS connections
+```
+
 # SSH key
 ```
 ssh-keygen // generate my_ssh_key and my_ssh_key.pub
