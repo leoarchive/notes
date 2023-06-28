@@ -1,3 +1,13 @@
+## SSH GEN
+```
+ssh-keygen 
+eval $(ssh-agent)
+ssh-add
+```
+## update discord
+```
+nix-env -f https://github.com/NixOS/nixpkgs/archive/master.tar.gz -iA discord
+```
 ## Failed to connect to seed broker with kafkajs
 ```
 .env problem. Even though the docker-compose volume is pointing to dev.env, the volume is starting with .env;

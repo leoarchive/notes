@@ -1,3 +1,17 @@
+# certbot
+```
+certbot certonly --standalone --preferred-challenges http -d exemplo.com.br
+```
+# ssl
+```
+openssl s_client -showcerts -connect irc.leonardo.moe:6697
+```
+# firewalld
+```
+sudo firewall-cmd --zone=public --add-port=<PORT>/tcp --permanent
+sudo firewall-cmd --reload
+```
+
 # ORACLE HTTPS:
 ```
 TCP 443 Allow HTTPS connections

@@ -1,5 +1,5 @@
 # cool widgets
 - https://pride.codes/
-# icons and such
+# icons and sucks
 - https://fontawesome.com/
 - https://fontawesomeicons.com/
